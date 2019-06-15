@@ -7,9 +7,9 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <Grid/>
+        <Grid />
         <Charts />
-      </div>    
+      </div>
     </div>
   );
 }
