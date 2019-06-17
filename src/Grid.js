@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import ReactDataGrid from 'react-data-grid';
-import { parseReadableDay } from "./Util";
+import { parseReadableDay, parseReadableColumn } from "./Util";
 
 function Grid(props) {
   const breakout = 'BREAKOUT';
@@ -25,7 +25,7 @@ function Grid(props) {
       row[parseReadableDay(day.timestamp)] = day[i];
     }
     //append the name of the param at the beginning
-    row[breakout] = i;
+    row[breakout] = parseReadableColumn(i);
 
     rows.push(row)
   }
