@@ -8,7 +8,7 @@ import { parseReadableDay } from "./Util";
 function App() {
 
   const chartData = churn.map(c => {
-    const mapped = { x: parseReadableDay(c.timestamp), y: c.net };
+    const mapped = { x: parseReadableDay(c.timestamp), y: c.total };
     return mapped;
   });
 

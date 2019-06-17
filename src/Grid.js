@@ -27,7 +27,8 @@ function Grid(props) {
     //append the name of the param at the beginning
     row[breakout] = parseReadableColumn(i);
 
-    rows.push(row)
+    rows.push(row);
+
   }
 
   return (
@@ -35,8 +36,8 @@ function Grid(props) {
       <ReactDataGrid
         columns={columns}
         rowGetter={i => rows[i]}
-        rowsCount={3}
-        minHeight={150} />
+        rowsCount={rows.length}
+        minHeight={190} />
     </div>
   );
 }
