@@ -37,7 +37,10 @@ function Grid(props) {
         columns={columns}
         rowGetter={i => rows[i]}
         rowsCount={rows.length}
-        minHeight={190} />
+        minHeight={175}
+
+      />
+
     </div>
   );
 }

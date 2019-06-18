@@ -4,6 +4,7 @@ import Charts from "./Charts";
 import Grid from "./Grid";
 import { churn, churnColumns } from "./Data";
 import { parseReadableDay } from "./Util";
+import { Container, Segment } from 'semantic-ui-react'
 
 function App() {
   //TODO add % to the grid display
@@ -14,10 +15,14 @@ function App() {
 
   return (
     <div className="PageWrapper">
-      <Charts data={chartData} />
+      <Container>
+        <Segment>
+          <Charts data={chartData} />
 
-      {/*We need to turn rows into columns to get the display we want*/}
-      <Grid rows={churnColumns} data={churn} />
+          {/*We need to turn rows into columns to get the display we want*/}
+          <Grid rows={churnColumns} data={churn} />
+        </Segment>
+      </Container>
     </div>
   );
 }

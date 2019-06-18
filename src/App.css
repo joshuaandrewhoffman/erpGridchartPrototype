@@ -12,4 +12,8 @@ html, body, #root, .PageWrapper {
 
 .react-grid-Grid div div {
   overflow: hidden;
+  font-size: 13px;
+}
+.react-grid-Canvas {
+  overflow-y: hidden !important;
 }
