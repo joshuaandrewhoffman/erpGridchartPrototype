@@ -22,7 +22,7 @@ function Grid(props) {
     //get the data for each day
     let row = {};
     for (let day of props.data) {
-      row[parseReadableDay(day.timestamp)] = day[i];
+      row[parseReadableDay(day.timestamp)] = `${day[i]}%`;
     }
     //append the name of the param at the beginning
     row[breakout] = parseReadableColumn(i);
