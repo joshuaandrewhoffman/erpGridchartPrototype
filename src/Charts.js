@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { VictoryTheme, VictoryAxis, VictoryChart, VictoryLine } from "victory";
+import { VictoryTheme, VictoryAxis, VictoryChart, VictoryArea } from "victory";
 
 function Charts(props) {
   return (
@@ -14,9 +14,9 @@ function Charts(props) {
       >
         <VictoryAxis />
         <VictoryAxis dependentAxis tickFormat={(tick) => `${Math.round(tick)}%`} />
-        <VictoryLine
+        <VictoryArea
           style={{
-            data: { stroke: "#0cc5cc" },
+            data: { stroke: "#0cc5cc", fill: "#BFF6F8" },
             parent: { border: "1px solid #ccc" }
           }}
           data={props.data}

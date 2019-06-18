@@ -1,5 +1,14 @@
-html, body, #root, .PageWrapper {
+html, body, #root {
   height: 100%;
+}
+
+.title {
+  padding-bottom: 20px!important;
+}
+
+.PageWrapper {
+  height: 100%;
+  padding-top: 50px;
 }
 
 .Grid {
@@ -16,4 +25,8 @@ html, body, #root, .PageWrapper {
 }
 .react-grid-Canvas {
   overflow-y: hidden !important;
+}
+
+.statistic .value {
+  color: #0cc5cc!important;
 }
