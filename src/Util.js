@@ -1,7 +1,7 @@
 import moment from 'moment';
 
 export const parseReadableDay = (timestamp) => {
-    return moment.unix(timestamp).format('M/D');
+    return moment.unix(timestamp).format('MMM D');
 }
 
 export const parseReadableColumn = (columnRaw) => {

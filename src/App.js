@@ -6,7 +6,7 @@ import { churn, churnColumns } from "./Data";
 import { parseReadableDay } from "./Util";
 
 function App() {
-
+  //TODO add % to the grid display
   const chartData = churn.map(c => {
     const mapped = { x: parseReadableDay(c.timestamp), y: c.total };
     return mapped;
