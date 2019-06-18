@@ -10,31 +10,31 @@ export const churn = [
     },
     {
         "timestamp": 1559433600,
-        "cancellation": 3.6,
+        "cancellation": 2.6,
         "failed_charge": 0.1,
         "downgrade": 0.2,
-        "total": 3.9
+        "total": 2.9
     },
     {
         "timestamp": 1559520000,
-        "cancellation": 1.4,
+        "cancellation": 2.6,
         "failed_charge": 0.1,
         "downgrade": 0.2,
-        "total": 1.7
+        "total": 2.9
     },
     {
         "timestamp": 1559606400,
         "cancellation": 2.6,
         "failed_charge": 0.4,
-        "downgrade": 0.1,
-        "total": 3.1
+        "downgrade": 0.2,
+        "total": 3.2
     },
     {
         "timestamp": 1559692800,
-        "cancellation": 0.7,
-        "failed_charge": 0.0,
-        "downgrade": 0.1,
-        "total": 0.8
+        "cancellation": 2.7,
+        "failed_charge": 0.4,
+        "downgrade": 0.2,
+        "total": 3.3
     },
     {
         "timestamp": 1559779200,
@@ -52,10 +52,10 @@ export const churn = [
     },
     {
         "timestamp": 1559952000,
-        "cancellation": 3.7,
+        "cancellation": 3.2,
         "failed_charge": 0.2,
-        "downgrade": 1.3,
-        "total": 5.2
+        "downgrade": 1.0,
+        "total": 4.3
     },
     {
         "timestamp": 1560038400,

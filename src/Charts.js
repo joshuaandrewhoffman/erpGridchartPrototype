@@ -20,6 +20,7 @@ function Charts(props) {
             parent: { border: "1px solid #ccc" }
           }}
           data={props.data}
+          domain={{ y: [0, 6] }}
         />
       </VictoryChart      >
     </div >
